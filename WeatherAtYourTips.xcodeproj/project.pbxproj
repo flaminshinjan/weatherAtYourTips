@@ -22,6 +22,7 @@
 		D938F668297D079800751A03 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938F667297D079800751A03 /* ModelData.swift */; };
 		D938F66A297D084000751A03 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = D938F669297D084000751A03 /* weatherData.json */; };
 		D938F66C297D0B7400751A03 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938F66B297D0B7400751A03 /* Extensions.swift */; };
+		D938F66F297E508E00751A03 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938F66E297E508E00751A03 /* WeatherRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		D938F667297D079800751A03 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		D938F669297D084000751A03 /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
 		D938F66B297D0B7400751A03 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D938F66E297E508E00751A03 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +165,17 @@
 				D938F661297C708F00751A03 /* LoadingView.swift */,
 				D938F65F297C6C8800751A03 /* WelcomeView.swift */,
 				D938F665297D042800751A03 /* WeatherView.swift */,
+				D938F66D297E507500751A03 /* Components */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D938F66D297E507500751A03 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D938F66E297E508E00751A03 /* WeatherRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 				D938F634297C120800751A03 /* ContentView.swift in Sources */,
 				D938F632297C120800751A03 /* WeatherAtYourTipsApp.swift in Sources */,
 				D938F65D297C175F00751A03 /* LocationManager.swift in Sources */,
+				D938F66F297E508E00751A03 /* WeatherRow.swift in Sources */,
 				D938F662297C708F00751A03 /* LoadingView.swift in Sources */,
 				D938F668297D079800751A03 /* ModelData.swift in Sources */,
 				D938F666297D042800751A03 /* WeatherView.swift in Sources */,
